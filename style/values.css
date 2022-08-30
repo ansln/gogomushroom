@@ -1,0 +1,175 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 1024px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container h1{
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    color: #333333;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 22px;
+}
+.desc_title{
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    color: #333333;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 50px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 350px;
+    background-color: #F9F9F9;
+}
+
+.mcard h3{
+    padding-left: 24px;
+    padding-top: 5px;
+    color: black;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+}
+.mcard p{
+    margin-top: 32px;
+    width: 380px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.mcard .pcard2{width: 350px;}
+.mcard .pcard3{width: 400px;}
+
+.title{
+    display: flex;
+    flex-direction: row;
+}
+.mcard img{
+    float: left;
+    width: 42px;
+    height: 42px;
+}
+.batasv{border-right: 2px solid #E3E3E3;height: 244px;margin-top: 50px;}
+.batash{width: 100%;border-bottom: 2px solid #E3E3E3;}
+
+.container-slide{
+    display: none ;
+}
+
+@media only screen and (max-width:500px) {
+    .container-slide{
+        display: flex;
+        flex-direction: column;
+        background-color: #F9F9F9;
+        width: 100%;
+        height: 334px;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        display: block;
+        padding-top: 50px;
+    }
+
+    .top-title{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .top-title h1{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .top-title p{
+        text-align: center;
+        width: 350px;
+        padding-top: 8px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        background: #F9F9F9;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .mcard-slide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 350px;
+        background-color: #F9F9F9;
+    }
+    
+    .mcard-slide h3{
+        padding-left: 12px;
+        color: black;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 34px;
+    }
+    .mcard-slide p{
+        margin-top: 13px;
+        width: 380px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+.mcard-slide .pcard2{width: 350px;}
+.mcard-slide .pcard3{width: 400px;}
+    
+    .title-slide{
+        display: flex;
+        flex-direction: row;
+    }
+    .mcard-slide img{
+        margin-top: 5px;
+        float: left;
+        width: 22px;
+        height: 22px;
+    }
+}
+

@@ -1,0 +1,139 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+.c-team-hp{display: none;}
+.content-team{
+    background-image: linear-gradient(
+        to bottom,
+        white 0%,
+        white 45%,
+        rgba(216, 183, 116, 0.25) 45%,
+        rgba(216, 183, 116, 0.25) 100%
+    );
+    height: 783px;
+    text-align: center;
+}
+.content-team h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    padding-bottom: 70px;
+}
+.row-team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 60px;
+    padding-top: 69px;
+}
+.card-team{
+    margin-right: 74px;
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    height: 100%;
+}
+.card-team img{
+    width: 305px;
+    height: 305px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.card-team h3{
+    padding-top: 26px;
+    padding-bottom: 6px;
+    text-align: left;
+    color: #333333;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+}
+.card-team b1{
+    float: left;
+    color: #333333;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.card-team .sm-icon{
+    margin-top: 26px;
+    display: flex;
+    flex-direction: row;
+}
+.card-team .sm-icon img{
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:500px) {
+    .content-team{display: none;}
+    .c-team-hp{
+        margin-top: 62px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        color: #333333;
+    }
+    .team-hp{
+        width: 100%;
+        height: 258px;
+        background-image: linear-gradient(
+            to bottom,
+            white 0%,
+            white 40%,
+            rgba(216, 183, 116, 0.35) 40%,
+            rgba(216, 183, 116, 0.35) 100%
+        );
+    }
+    .team-hp h1{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .row-team-hp{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 31px;
+    }
+    .card-team-hp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 305px;
+        height: 100%;
+    }
+    .card-team-hp img{
+        width: 89.44px;
+        height: 86px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    .card-team-hp h3{
+        color: black;
+        margin-top: 8px;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .card-team-hp b1{
+        margin-top: 4px;
+        color: black;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .card-team-hp .sm-icon{
+        margin-top: 8px;
+        display: flex;
+        flex-direction: row;
+    }
+    .card-team-hp .sm-icon img{
+        width:18.72px;
+        height: 18px;
+        object-fit: cover;
+    }
+}
