@@ -81,33 +81,33 @@ var swiper = new Swiper(".slide-desktop", {
     },
 });
 
-// click to copy function
 function clickCopy() {
-  var copyText = document.getElementById("phone");
+    var copyText = document.getElementById("phone");
 
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
 
-  navigator.clipboard.writeText(copyText.value);
-
-  Swal.fire({
-    toast: true,
-    icon: 'success',
-    title: 'You copy this number',
-    timer: 2000,
-    position: 'top-end',
-    showConfirmButton: false
-  })
+    Swal.fire({
+        toast: true,
+        icon: 'success',
+        title: 'You copy this number',
+        timer: 2000,
+        position: 'top-end',
+        showConfirmButton: false
+    })
 }
 function sendMsg() {
-  var sendBtn = document.getElementById("sendMsgBtn");
+    var sendBtn = document.getElementById("sendMsgBtn");
 
-  Swal.fire({
-    toast: true,
-    icon: 'success',
-    title: 'Thanks for contacting us!',
-    timer: 4000,
-    position: 'top-end',
-    showConfirmButton: false
-  })
+    Swal.fire({
+        toast: true,
+        icon: 'success',
+        title: 'Thanks for contacting us!',
+        timer: 4000,
+        position: 'top-end',
+        showConfirmButton: false
+    });
+    
+    window.location.reload(true);
 }
