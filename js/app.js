@@ -100,3 +100,16 @@ function clickCopy() {
     showConfirmButton: false
   })
 }
+function sendMsg() {
+  var sendBtn = document.getElementById("sendMsgBtn");
+
+  Swal.fire({
+    toast: true,
+    icon: 'success',
+    title: 'You copy this number',
+    timer: 2000,
+    timerProgressBar: true,
+    position: 'top-end',
+    showConfirmButton: false
+  })
+}
