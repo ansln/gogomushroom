@@ -401,7 +401,7 @@
               <div class="shapes2-hp"></div>
           </div></div>
   
-          <form method="post" action="success.php">
+          <form>
             <div id="r-left3"><div class="row-ct-hp">
                 <input class="txtform-ct-hp" type="text" name="name" autocomplete="off" placeholder="What's your Name?">
                 <input class="txtform-ct-hp" type="email" id="email" name="email" placeholder="What's your Email?">
@@ -415,7 +415,7 @@
             <div id="r-left5"><textarea class="txtmsg-ct-hp" name="msg" type="text" autocomplete="off" placeholder="Write your message..."></textarea></div>
     
             <div id="c-ab-s5"><div class="ct-btn-hp">
-                <button>Send Your Message</button>
+                <button id="sendMsgBtn" onclick="sendMsg()" type="button">Send Your Message</button>
             </div></div>
         </form>
       </div>
