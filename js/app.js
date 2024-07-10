@@ -110,5 +110,5 @@ function sendMsg() {
     });
     
     setTimeout(reloadPage, 4000);
-    function reloadPage() {window.location.reload(true)}
+    function reloadPage() {window.location.replace("/")}
 }
