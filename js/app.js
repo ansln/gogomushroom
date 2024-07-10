@@ -95,7 +95,6 @@ function clickCopy() {
     icon: 'success',
     title: 'You copy this number',
     timer: 2000,
-    timerProgressBar: true,
     position: 'top-end',
     showConfirmButton: false
   })
@@ -106,7 +105,7 @@ function sendMsg() {
   Swal.fire({
     toast: true,
     icon: 'success',
-    text: 'Thanks for contacting us!',
+    title: 'Thanks for contacting us!',
     timer: 4000,
     position: 'top-end',
     showConfirmButton: false
