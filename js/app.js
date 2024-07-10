@@ -108,6 +108,7 @@ function sendMsg() {
         position: 'top-end',
         showConfirmButton: false
     });
-
-    setInterval(window.location.reload(true), 4000);
+    
+    setTimeout(reloadPage, 4000);
+    function reloadPage() {window.location.reload(true)}
 }
