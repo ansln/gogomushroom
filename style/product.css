@@ -92,7 +92,6 @@ input{
         flex-direction: column;
         margin: 41px 23px 100px 23px;
         text-align: left;
-        align-items: center;
     }
     .ct-product-phone .swiper {
         width: 100%;
@@ -152,7 +151,7 @@ input{
 }
 
 @media only screen and (max-width:414px) {
-    .ct-product-phone-item p{
-        width: 325px;
+    .ct-product-phone-item{
+        padding: 0 5px 0 5px;
     }
 }
