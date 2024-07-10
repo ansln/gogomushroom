@@ -109,5 +109,5 @@ function sendMsg() {
         showConfirmButton: false
     });
 
-    setInterval(window.location.reload(true));
+    setInterval(window.location.reload(true), 4000);
 }
