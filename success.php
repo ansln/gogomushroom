@@ -37,7 +37,7 @@
                 seconds = seconds - 1;
                 if (seconds < 0) {
                     // Chnage your redirection link here
-                    window.location = '/';
+                    window.location = '/ok';
                 } else {
                     // Update remaining seconds
                     document.getElementById('countdown').innerHTML = seconds;
@@ -73,7 +73,7 @@
                 seconds = seconds - 1;
                 if (seconds < 0) {
                     // Chnage your redirection link here
-                    window.location = '/';
+                    window.location = '/ok';
                 } else {
                     // Update remaining seconds
                     document.getElementById('countdown').innerHTML = seconds;
