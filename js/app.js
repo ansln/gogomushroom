@@ -108,6 +108,6 @@ function sendMsg() {
         position: 'top-end',
         showConfirmButton: false
     });
-    
-    window.location.reload(true);
+
+    setInterval(window.location.reload(true));
 }
