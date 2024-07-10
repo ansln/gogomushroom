@@ -106,9 +106,8 @@ function sendMsg() {
   Swal.fire({
     toast: true,
     icon: 'success',
-    title: 'You copy this number',
-    timer: 2000,
-    timerProgressBar: true,
+    text: 'Thanks for contacting us!',
+    timer: 4000,
     position: 'top-end',
     showConfirmButton: false
   })
